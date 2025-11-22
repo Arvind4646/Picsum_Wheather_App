@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA33A6D42ED181B400D2207D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BA33A6D32ED181B400D2207D /* Kingfisher */; };
-		BA33A6D92ED1859200D2207D /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = BA33A6D82ED1859200D2207D /* GoogleMaps */; };
+		BA7A98BA2ED204CC00C23DA2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BA7A98B92ED204CC00C23DA2 /* Kingfisher */; };
+		BA7A98BC2ED204CF00C23DA2 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = BA7A98BB2ED204CF00C23DA2 /* GoogleMaps */; };
+		BA7A98BE2ED208B900C23DA2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BA7A98BD2ED208B900C23DA2 /* Kingfisher */; };
+		BA7A98C02ED208BD00C23DA2 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = BA7A98BF2ED208BD00C23DA2 /* GoogleMaps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA33A6D92ED1859200D2207D /* GoogleMaps in Frameworks */,
-				BA33A6D42ED181B400D2207D /* Kingfisher in Frameworks */,
+				BA7A98C02ED208BD00C23DA2 /* GoogleMaps in Frameworks */,
+				BA7A98BE2ED208B900C23DA2 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7A98BC2ED204CF00C23DA2 /* GoogleMaps in Frameworks */,
+				BA7A98BA2ED204CC00C23DA2 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +144,8 @@
 			);
 			name = Assessment;
 			packageProductDependencies = (
-				BA33A6D32ED181B400D2207D /* Kingfisher */,
-				BA33A6D82ED1859200D2207D /* GoogleMaps */,
+				BA7A98BD2ED208B900C23DA2 /* Kingfisher */,
+				BA7A98BF2ED208BD00C23DA2 /* GoogleMaps */,
 			);
 			productName = Assessment;
 			productReference = BA33A6832ED175F100D2207D /* Assessment.app */;
@@ -165,6 +169,8 @@
 			);
 			name = AssessmentTests;
 			packageProductDependencies = (
+				BA7A98B92ED204CC00C23DA2 /* Kingfisher */,
+				BA7A98BB2ED204CF00C23DA2 /* GoogleMaps */,
 			);
 			productName = AssessmentTests;
 			productReference = BA33A6902ED175F200D2207D /* AssessmentTests.xctest */;
@@ -617,12 +623,22 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BA33A6D32ED181B400D2207D /* Kingfisher */ = {
+		BA7A98B92ED204CC00C23DA2 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BA33A6B12ED17FC600D2207D /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-		BA33A6D82ED1859200D2207D /* GoogleMaps */ = {
+		BA7A98BB2ED204CF00C23DA2 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA33A6D72ED1858900D2207D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		BA7A98BD2ED208B900C23DA2 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA33A6B12ED17FC600D2207D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		BA7A98BF2ED208BD00C23DA2 /* GoogleMaps */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BA33A6D72ED1858900D2207D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
 			productName = GoogleMaps;
