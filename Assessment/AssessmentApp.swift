@@ -11,18 +11,9 @@ import GoogleMaps
 @main
 struct AssessmentApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    @AppStorage("appTheme") private var appTheme: String = "system"
     var body: some Scene {
         WindowGroup {
             RootView()
-        }
-    }
-    
-    private var currentColorScheme: ColorScheme? {
-        switch appTheme {
-        case "light": return .light
-        case "dark": return .dark
-        default: return nil   // System default
         }
     }
 }
